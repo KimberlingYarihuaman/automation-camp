@@ -1,3 +1,4 @@
+import 'cypress-file-upload';
 //LOGIN USERS
 Cypress.Commands.add('login', (username, password) => {
     //PAGE
